@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
 </head>
-<body>
+<body  style="background-color: #fdf0f0;">
     <div class="container-fluid">
 
         <!-- begin navbar  -->
@@ -49,57 +49,47 @@
         <!-- end navbar  -->
 
         <!-- begin header -->
-        <div class="row" style="margin-top: 60px;">
-            <div class="col-md-4 " >
-                <div class="arow">
-                    <i class="arow-up fas fa-caret-square-up"></i>
-                <i class="arow-up fas fa-caret-square-down"></i>
-                <button type="button" class="btn-baocao btn btn-success"> 報告ボタン</button>
-                </div>
+        <div class="container mt-5">
+            <div class="tieude  mb-3">
+                <h3 class="tenmon">小麦粉から作るたこ焼き</h3>
+                <span>外はカリッと香ばしく、中はとろっとジューシー！おうちで本格、おいしいたこ焼きの作り方！</span>
             </div>
-            <div class="col-md-4">
-                <div class="col-md-4 mt-3" >
-                    <div class="card card_ninki" style="width: 18rem;">
-                        <a href="#"><img src="./img/taboyaki.jpg" class="card_img card-img-top" alt="cakhoto"></a>
-                        <div class="card-body" style="background-color: #f6f7f8;">
-                          <h5 class="card_title card-title ">たこ焼き</h5>
-                        </div>
-                      </div>    
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="./img/taboyaki.jpg" alt="takoyaki" class="imgdetail">
+                    <div class="detail">
+                        <span class="time" style="border-right: 3px solid red;"><i class="icon-time far fa-clock"></i>25分</span>
+                        <span class="time" style="border-right: 3px solid red;"><i class="fas fa-fire red icon-time"></i>289kcal</span>
+                        <span class="time"><i class="fas fa-eye blue icon-time"></i>406 views</span>
+                    </div>
                 </div>
-            </div>
-            <div class="  col-md-4 col-user" style="max-width: 240px;">
-                <div class="col-md-4 mt-3" >
-                    <div class="card card_ninki" style="width:  18rem; max-width: 142px;">
-                        <a href="#"><img src="./img/102180246.jpg" class="user_img card-img-top" alt="cakhoto"></a>
-                        <div class="card-body" style="background-color: #f6f7f8;">
-                          <p class="card_title card-title ">Tạ Đình Hân</p>
+                <div class="col-md-4 ">
+                                <!-- begin 食材 -->
+                    <div class="nguyenlieu congthuc " >
+                        <div class="">
+                            <h4 class="tilte_nguyenlieu  mt-3 mb-3">材料:</h4>    
+                            <ul class="list-group">
+                                <li class="list-group-item ">ニップン　たこ焼粉  <span class="khoiluong">200g</span></li>
+                                <li class="list-group-item">卵   <span class="khoiluong">200g</span>2個</li>
+                                <li class="list-group-item">水  <span class="khoiluong">600㏄</span></li>
+                                <li class="list-group-item">たこ（蒸し又はゆで） <span class="khoiluong">100g</span></li>
+                                <li class="list-group-item">キャベツ  <span class="khoiluong">150g</span></li>
+                                <li class="list-group-item">万能ねぎ  <span class="khoiluong">5本</span></li>
+                                <li class="list-group-item">紅生姜  <span class="khoiluong">40g</span></li>
+                                <li class="list-group-item">たこ焼きソース・青のり・かつお節  <span class="khoiluong">各適量</span></li>
+                            </ul>
                         </div>
-                      </div>    
+                    </div>
+        <!-- end 食材 -->
                 </div>
             </div>
         </div>
         <!-- end header -->
         
-        <!-- begin 食材 -->
-        <div class="nguyenlieu container " style="padding-left: 164px; padding-right: 164px;">
-            <div class="row congthuc">
-                <h4 class="tilte_nguyenlieu">材料:</h4>    
-                <ul class="list-group">
-                    <li class="list-group-item ">ニップン　たこ焼粉  <span class="khoiluong">200g</span></li>
-                    <li class="list-group-item">卵   <span class="khoiluong">200g</span>2個</li>
-                    <li class="list-group-item">水  <span class="khoiluong">600㏄</span></li>
-                    <li class="list-group-item">たこ（蒸し又はゆで） <span class="khoiluong">100g</span></li>
-                    <li class="list-group-item">キャベツ  <span class="khoiluong">150g</span></li>
-                    <li class="list-group-item">万能ねぎ  <span class="khoiluong">5本</span></li>
-                    <li class="list-group-item">紅生姜  <span class="khoiluong">40g</span></li>
-                    <li class="list-group-item">たこ焼きソース・青のり・かつお節  <span class="khoiluong">各適量</span></li>
-                  </ul>
-            </div>
-        </div>
-        <!-- end 食材 -->
+       
 
         <!-- begin 作り方 -->
-        <div class="nguyenlieu  container " style="padding-left: 164px; padding-right: 164px;">
+        <div class="container mt-5 mb-5" style="padding-left: 164px; padding-right: 164px;">
             <div class="row congthuc">
                 <h4 class="tilte_nguyenlieu">材料:</h4>    
                 <ul class="list-group">
