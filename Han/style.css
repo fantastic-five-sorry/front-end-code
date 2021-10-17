@@ -15,7 +15,7 @@ html{
 }
 .navbarcooki{
     height: 100px;
-    background-color: #f6f7f8;
+    background-color: #bdecd5;
    
 }
 .nav-logo{
@@ -62,6 +62,7 @@ html{
 }
 .ninki_ribi{
     margin-top: 8rem;
+    
 }
 .niki{
     display: flex;
@@ -82,7 +83,7 @@ html{
     text-decoration: underline;
 } 
 .card_ninki{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(47, 47, 49, 0.2) 0px 7px 29px 0px;
 }
 .card_title{
     text-align: center;
@@ -115,7 +116,7 @@ html{
 .footer{
     height: 360px;
     width: 100%;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     text-align: center;
     background-color: #222222;
 }
@@ -169,6 +170,33 @@ html{
     cursor: pointer;
     opacity: 0.6;
 }
+.tenmon{
+    font-size: 34px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.imgdetail{
+    width: 750px;
+    height: 500px;
+    margin-top: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.detail{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 19px;
+    width: 750px;
+}
+.time{
+    color: #000;
+    padding-right:50px ;
+    margin-left: 20px;
+    
+}
+.icon-time{
+    color: #fd7e14;
+    margin-right: 5px;
+}
 
 .btn-baocao{
     margin-top: 36px;
@@ -188,7 +216,9 @@ html{
     opacity: 0.6;
 }
 .nguyenlieu{
-    padding: 24px 164px;
+    width: 400px;
+    min-height: 500px;
+    margin-top: 12px;
 }
 .khoiluong{
     float: right;
@@ -259,4 +289,104 @@ html{
 
 .hit-voting {
     cursor: pointer
+}
+.nav-admin{
+   
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #F5F5F5;
+}
+.nav-admin a{
+    color: #000;
+
+}
+.icon-navleft{
+    margin-right: 5px;
+    min-width: 18px;
+    min-height: 16px;
+
+}
+.question{
+    border: 1px solid #e4e5e6;
+    margin: 20px;
+    margin-top: 10px;
+}
+.question-as{
+    margin: 40px;
+}
+.nav-arow{
+    float: right;
+    line-height: 40px;
+}
+.nav-arow:hover{
+    cursor: pointer;
+}
+.author-img{
+    border-radius: 50%;
+}
+.author-img{
+    cursor: pointer;
+}
+.ten{
+    display: inline-block;
+    line-height: 5px;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+.author-name{
+    font-size: 14px;
+    color: #2D6FF7;
+}
+.date{
+    font-size: 14px;
+    margin-bottom: -5px;
+}
+.question-detail{
+    margin-left: 58px;
+    line-height: 36px;
+}
+.like-dis{
+    display: inline-block;
+    margin-right: 10px;
+}
+.reply{
+    display: inline-block;
+    
+}
+.icon-question:hover{
+    cursor: pointer;
+}
+.icon-question{
+    margin-right: 5px;
+}
+.icon-question-down{
+    margin-left: 5px;
+}
+.icon-question-down:hover{
+    cursor: pointer;
+}
+.container-question{
+    margin-top: 10px ;
+    margin-left:40px ;
+    margin-right: 40px;
+}
+.title{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.btn{
+    float: right;
+}
+.question{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.question-answer{
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
