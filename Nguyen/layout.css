@@ -185,7 +185,7 @@ html {
     display: block;
     width: 32px;
     height: 32px;
-    margin-left: 15px;
+    margin-left: 40px;
     background: transparent;
     border: none;
 }
@@ -305,4 +305,68 @@ html {
     bottom: 0;
     background-color: rgba(250, 250, 250, 0.8);
     z-index: 1;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #b0d4ed;
+    padding: 50px 0px;
+    margin: 30px 0px;
+    color: #0048a3;
+}
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.project-tab #tabs {
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title {
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead {
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pag {
+    width: 100%;
 }
