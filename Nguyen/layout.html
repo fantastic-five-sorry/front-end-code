@@ -7,6 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -102,54 +124,297 @@
           <span class="hamb-bottom"></span>
         </button>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <h1>Fancy Toggle Sidebar Navigation</h1>
-              <p>
-                Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle.
-                Bresaola tail pancetta ball tip doner meatloaf corned beef.
-                Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork
-                loin salami pork chop shank corned beef tenderloin meatball cow.
-                Pork bresaola meatloaf tongue, landjaeger tail andouille strip
-                steak tenderloin sausage chicken tri-tip. Pastrami tri-tip
-                kielbasa sausage porchetta pig sirloin boudin rump meatball
-                andouille chuck tenderloin biltong shank
-              </p>
-              <p>
-                Pig meatloaf bresaola, spare ribs venison short loin rump pork
-                loin drumstick jowl meatball brisket. Landjaeger chicken fatback
-                pork loin doner sirloin cow short ribs hamburger shoulder salami
-                pastrami. Pork swine beef ribs t-bone flank filet mignon, ground
-                round tongue. Tri-tip cow turducken shank beef shoulder bresaola
-                tongue flank leberkas ball tip.
-              </p>
-              <p>
-                Filet mignon brisket pancetta fatback short ribs short loin
-                prosciutto jowl turducken biltong kevin pork chop pork beef ribs
-                bresaola. Tongue beef ribs pastrami boudin. Chicken bresaola
-                kielbasa strip steak biltong. Corned beef pork loin cow pig
-                short ribs boudin bacon pork belly chicken andouille. Filet
-                mignon flank turkey tongue. Turkey ball tip kielbasa pastrami
-                flank tri-tip t-bone kevin landjaeger capicola tail fatback pork
-                loin beef jerky.
-              </p>
-              <p>
-                Chicken ham hock shankle, strip steak ground round meatball pork
-                belly jowl pancetta sausage spare ribs. Pork loin cow salami
-                pork belly. Tri-tip pork loin sausage jerky prosciutto t-bone
-                bresaola frankfurter sirloin pork chop ribeye corned beef chuck.
-                Short loin hamburger tenderloin, landjaeger venison porchetta
-                strip steak turducken pancetta beef cow leberkas sausage beef
-                ribs. Shoulder ham jerky kielbasa. Pig doner short loin pork
-                chop. Short ribs frankfurter rump meatloaf.
-              </p>
-              <p>
-                Filet mignon biltong chuck pork belly, corned beef ground round
-                ribeye short loin rump swine. Hamburger drumstick turkey, shank
-                rump biltong pork loin jowl sausage chicken. Rump pork belly
-                fatback ball tip swine doner pig. Salami jerky cow, boudin pork
-                chop sausage tongue andouille turkey.
-              </p>
+          <div class="header">
+            <span>COOK WITH ME</span>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <nav>
+                  <div
+                    class="nav nav-tabs nav-fill"
+                    id="nav-tab"
+                    role="tablist"
+                  >
+                    <a
+                      class="nav-item nav-link active"
+                      id="nav-home-tab"
+                      data-toggle="tab"
+                      href="#nav-home"
+                      role="tab"
+                      aria-controls="nav-home"
+                      aria-selected="true"
+                      >Total</a
+                    >
+                    <a
+                      class="nav-item nav-link"
+                      id="nav-profile-tab"
+                      data-toggle="tab"
+                      href="#nav-profile"
+                      role="tab"
+                      aria-controls="nav-profile"
+                      aria-selected="false"
+                      >Approved</a
+                    >
+                    <a
+                      class="nav-item nav-link"
+                      id="nav-contact-tab"
+                      data-toggle="tab"
+                      href="#nav-contact"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                      >Not admitted</a
+                    >
+                  </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="nav-home"
+                    role="tabpanel"
+                    aria-labelledby="nav-home-tab"
+                  ></div>
+                  <div
+                    class="tab-pane fade"
+                    id="nav-profile"
+                    role="tabpanel"
+                    aria-labelledby="nav-profile-tab"
+                  >
+                    <table class="table" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Author Name</th>
+                          <th>Recipe Name</th>
+                          <th>Delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="#">1</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">2</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">3</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">4</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">5</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">6</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">7</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">8</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">9</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">10</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="pag">
+                      <ul class="pagination">
+                        <li class="disabled"><a href="#">«</a></li>
+                        <li class="active">
+                          <a href="#"
+                            >1 <span class="sr-only">(current)</span></a
+                          >
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">»</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="nav-contact"
+                    role="tabpanel"
+                    aria-labelledby="nav-contact-tab"
+                  >
+                    <table class="table" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Author Name</th>
+                          <th>Recipe Name</th>
+                          <th>Delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="#">1</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">2</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">3</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">4</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">5</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">6</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">7</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">8</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">9</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><a href="#">10</a></td>
+                          <td>Doe</td>
+                          <td>Recipe</td>
+                          <td>
+                            <button class="btn btn-success confirm">V</button
+                            ><button class="btn btn-danger delete">X</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="pag">
+                      <ul class="pagination">
+                        <li class="disabled"><a href="#">«</a></li>
+                        <li class="active">
+                          <a href="#"
+                            >1 <span class="sr-only">(current)</span></a
+                          >
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">»</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
