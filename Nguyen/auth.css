@@ -6,8 +6,9 @@ html {
     background: #60a3bc !important;
 }
 .user_card {
-    height: 550px;
+    height: auto;
     width: 500px;
+
     margin-top: auto;
     margin-bottom: auto;
     background: #f39c12;
