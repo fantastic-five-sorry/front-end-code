@@ -7,7 +7,8 @@ html {
 }
 .user_card {
     height: auto;
-    width: 350px;
+    width: 500px;
+
     margin-top: auto;
     margin-bottom: auto;
     background: #f39c12;
@@ -48,6 +49,10 @@ html {
 
 .login_btn img {
     width: 25px;
+}
+
+.helper {
+    color: #c0392b;
 }
 
 .login_btn:focus {

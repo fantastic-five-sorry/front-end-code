@@ -5,6 +5,7 @@
 />
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <link rel="stylesheet" href="./auth.css" />
 
 <!DOCTYPE html>
@@ -68,8 +69,14 @@
                   placeholder="password"
                 />
               </div>
+              <span id="helper" class="helper"></span>
               <div class="d-flex justify-content-center mt-3 login_container">
-                <button type="button" name="button" class="btn login_btn">
+                <button
+                  id="login-btn"
+                  type="button"
+                  name="button"
+                  class="btn login_btn"
+                >
                   Login
                 </button>
               </div>
@@ -97,4 +104,5 @@
       </div>
     </div>
   </body>
+  <script src="./auth-script.js"></script>
 </html>
