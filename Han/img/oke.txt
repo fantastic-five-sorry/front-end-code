@@ -1,0 +1,40 @@
+//--- chuc nang
+tao & tinh
+kojin page: thong tin read, update
+
+recipe: tom tat, trang chi tiet, trang them sua xoa, trang tim kiem, trang bao cao
+
+comment: xem sua xoa -> chu yeu nam duoi phan recipe
+
+
+recipe collecton: ca nhan col (profile), them sua xoa voting
+
+cau hoi va tra loi: cau hoi, tim kiem cau hoi, chi tiet cau hoi va tra loi, them sua xoa cau hoi + tra loi
+
+voting
+
+
+//--- giao dien 
+
+dong` 166-318 gom 7 giao dien
+//--- Han Trang so 1+2+3
+質問ページ + 質問投稿ページ + 回答ページ
+
+-------------------------
+Vi cac trang con lai thuoc trang admin bao gom sidebar + content o giua, nen sidebar giong nhau, chi can lam 1 lan
+Nghia k can lam sidebar, chi lam content 
+
+4 管理者 ページ giao dien admin ( content) 
+7  ユーザー管理  ページ  quan ly nguoi dung ( content)
+
+-----------------------------
+
+Nguyen lam phan sidebar + content 
+bo qua レシピ管理  ページ
+レシピ管理  ページ (承認済み)
+5 ql recipe trang phe duyet ( side bar + content)
+
+レシピ管理  ページ (未承認)
+6 ql recipe da duoc phe duyet ( side bar + content)
+
+

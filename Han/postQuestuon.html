@@ -11,79 +11,31 @@
 </head>
 <body>
     <div class="container-fluid">
-         <!-- begin navbar  -->
-         <div class="row">
-            <nav class="navbar navbar-expand-lg navbarcooki">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item nav-logo">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <img class="cooki_logo" src="./img/cookie_logo_1.png" alt="logo">
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <form class="d-flex  d_formsearch">
-                            <input class="formSearch form-control me-2" style="width: 400px;" type="search" placeholder="タイトルで検索" aria-label="Search">
-                            <button class="btn btn-outline-success btn_search" type="submit">
-                              <i class="fas fa-search"></i>
-                            </button>
-                          </form>
-                      </li>
-                      
-                      <li class="nav-item dropdown Nav_Profile">
-                        <a class="nav-link dropdown-toggle " style="color: black;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            プロフィール
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">プロフィールを見る</a></li>
-                          <li><a class="dropdown-item" href="#">プロファイル編集</a></li>
-                          <li><a class="dropdown-item" href="#">ログアウト</a></li>
-                        </ul>
-                      </li>
-                     
-                    </ul> 
-                   
-                  </div>
-              </nav>
-        </div>
-        <!-- end navbar  -->
+        
        
         <div class="container mt-5">
             <div class="row">
                 <a href="#">
-                    戻る</a>
+                Back</a>
                 <form action="post">
-                    <div class="title">
-                        <h4>題名</h4>
+                    <div>
+                        <input  class="title" type="text" placeholder="Title">
                     </div>
                     <div class="form-group mt-4 mb-5">
                         <label for="exampleFormControlTextarea3">
-                            聞きたい質問</label>
+                            Question you want to ask</label>
                         <textarea class="form-control mt-1" id="exampleFormControlTextarea3" placeholder="Write something here..." rows="7"></textarea>
                     </div>
                     <div class="btn mb-5">
-                        <button type="button" class="btn btn-success ms-4">キャンセル</button>
-                        <button type="button" class="btn btn-secondary me-2 ms-2">ポスト</button>
+                        <button type="button" class="btn btn-success ms-4">Cancel</button>
+                        <button type="button" class="btn btn-secondary me-2 ms-2">Post</button>
                     
                     </div>
                 </form>
             </div>
         </div>
 
-         <!-- begin footer -->
-
-         <div class="footer">
-           
-            <a href="#"> <img src="./img/cookie_logo_2.png" alt="logo" class="logo_coki"></a>
-            <div class="share">
-                <i class="share_logo fab fa-facebook"></i>
-                <i class="share_logo fab fa-instagram-square"></i>
-                <i class="share_logo fab fa-google-plus-g"></i>
-                <i class="share_logo fab fa-youtube"></i>
-                <i class="share_logo fab fa-tiktok"></i>
-            </div>
-            <div class="footer-text">Copyright © 2015 All Rights Reserved.</div>
-        </div>
-        <!-- end footer -->
+         
     </div>
     
     <script src="script.js"></script>

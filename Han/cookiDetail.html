@@ -9,180 +9,154 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
 </head>
-<body  style="background-color: #fdf0f0;">
-    <div class="container-fluid">
-
-        <!-- begin navbar  -->
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbarcooki">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item nav-logo">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <img class="cooki_logo" src="./img/cookie_logo_1.png" alt="logo">
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <form class="d-flex  d_formsearch">
-                            <input class="formSearch form-control me-2" style="width: 400px;" type="search" placeholder="タイトルで検索" aria-label="Search">
-                            <button class="btn btn-outline-success btn_search" type="submit">
-                              <i class="fas fa-search"></i>
-                            </button>
-                          </form>
-                      </li>
-                      
-                      <li class="nav-item dropdown Nav_Profile">
-                        <a class="nav-link dropdown-toggle " style="color: black;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            プロフィール
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">プロフィールを見る</a></li>
-                          <li><a class="dropdown-item" href="#">プロファイル編集</a></li>
-                          <li><a class="dropdown-item" href="#">ログアウト</a></li>
-                        </ul>
-                      </li>
-                     
-                    </ul> 
-                   
-                  </div>
-              </nav>
-        </div>
-        <!-- end navbar  -->
+<body style="background-color: #f5f5f5;">
+    <div class="container-fluid" >
 
         <!-- begin header -->
-        <div class="container mt-5">
-            <div class="tieude  mb-3">
-                <h3 class="tenmon">小麦粉から作るたこ焼き</h3>
-                <span>外はカリッと香ばしく、中はとろっとジューシー！おうちで本格、おいしいたこ焼きの作り方！</span>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <img src="./img/taboyaki.jpg" alt="takoyaki" class="imgdetail">
-                    <div class="detail">
-                        <span class="time" style="border-right: 3px solid red;"><i class="icon-time far fa-clock"></i>25分</span>
-                        <span class="time" style="border-right: 3px solid red;"><i class="fas fa-fire red icon-time"></i>289kcal</span>
-                        <span class="time"><i class="fas fa-eye blue icon-time"></i>406 views</span>
+        <div class="row mt-5 ms-5">
+            <div class="col-md-9">
+                <div class="img-header">
+                    <div class="icon-report">
+                       
+                        <i class=" arow-up fas fa-caret-up"></i>
+                        <i class="arow-up arow-report fas fa-sort-down"></i>
+                        <input type="button" class="btn-report btn btn-danger"  value="Report">
+                    </div>
+                    <div class="img_detail">
+                        <img src="./img/taboyaki.jpg" alt="takoyaki" class="img_details">
+                        <h4 class="name_details">TaKoYaKi</h4>
                     </div>
                 </div>
-                <div class="col-md-4 ">
-                                <!-- begin 食材 -->
-                    <div class="nguyenlieu congthuc " >
-                        <div class="">
-                            <h4 class="tilte_nguyenlieu  mt-3 mb-3">材料:</h4>    
-                            <ul class="list-group">
-                                <li class="list-group-item ">ニップン　たこ焼粉  <span class="khoiluong">200g</span></li>
-                                <li class="list-group-item">卵   <span class="khoiluong">200g</span>2個</li>
-                                <li class="list-group-item">水  <span class="khoiluong">600㏄</span></li>
-                                <li class="list-group-item">たこ（蒸し又はゆで） <span class="khoiluong">100g</span></li>
-                                <li class="list-group-item">キャベツ  <span class="khoiluong">150g</span></li>
-                                <li class="list-group-item">万能ねぎ  <span class="khoiluong">5本</span></li>
-                                <li class="list-group-item">紅生姜  <span class="khoiluong">40g</span></li>
-                                <li class="list-group-item">たこ焼きソース・青のり・かつお節  <span class="khoiluong">各適量</span></li>
-                            </ul>
-                        </div>
-                    </div>
-        <!-- end 食材 -->
+            </div>
+            <div class="col-md-3">
+                <div class="user_img">
+                    <img src="./img/102180246.jpg" class=" user" alt="user">
+                    <h4 class="name-user">Ta Dinh Han</h4>
                 </div>
             </div>
         </div>
         <!-- end header -->
-        
-       
-
-        <!-- begin 作り方 -->
+        <!-- begin 食材 -->
         <div class="container mt-5 mb-5" style="padding-left: 164px; padding-right: 164px;">
             <div class="row congthuc">
-                <h4 class="tilte_nguyenlieu">材料:</h4>    
-                <ul class="list-group">
-                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);"><div class="step_n">たこは一口大に切る。キャベツ、紅生姜は刻み、万能ねぎは小口切りにする。</div></li>
+                <h4 class="tilte_nguyenlieu">Here’s what you need:</h4>    
+                <ul class="list-group" style="font-weight: bold;">
+                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);"><div class="step_n">
+                        1. Eggs.</div></li>
                     <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
-                        <div class="step_n">ボウルにたこ焼粉、卵、水を適量加えて泡立て器で混ぜ、残りの水を2～3回に分けて加え、ダマのないように混ぜ合わせる。</div></li>
+                        <div class="step_n">2. Flour.</div></li>
                     <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
-                        <div class="step_n">たこ焼き器を熱して油（分量外）を多めにひき、②の生地を8分目まで流し、①の具を入れる。</div></li>
+                        <div class="step_n">
+                            3. Dashi powder.</div></li>
                     <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
-                        <div class="step_n">まわりが固まってきたら竹串などであふれている生地を集めながら返し、回転させながら丸く焼き上げる。</div></li>
+                        <div class="step_n">
+                            4. Soy sauce.</div></li>
                     <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
-                        <div class="step_n">お好みでたこ焼きソースをかけ、青のりやかつお節をのせて食べる。</div></li>
+                                <div class="step_n">
+                                    5. Octopus/tako.</div></li>
+                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                        <div class="step_n">
+                            6. Tenkasu.</div></li>
+                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                        <div class="step_n">
+                            7. Takoyaki sauce.</div></li>
+                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                        <div class="step_n">
+                            8. Kewpie mayo.</div></li>
+                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                        <div class="step_n">
+                            9. Bonito flakes.</div></li>
+                    <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                        <div class="step_n">
+                            10. Seaweed.</div></li>
                    
                   </ul>
             </div>
         </div>
-        <!-- end 作り方 -->
+    <!-- end 食材 -->
+       <!-- begin 作り方 -->
+       <div class="container mt-5 mb-5" style="padding-left: 164px; padding-right: 164px;">
+        <div class="row congthuc">
+            <h4 class="tilte_nguyenlieu">How to make:</h4>    
+            <ul class="list-group">
+                <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);"><div class="step_n"><span style="font-weight: bold;margin-right: 5px;">1. Mix:</span> Mix the batter up with a whisk making sure there are no floury bits.</div></li>
+                <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                    <div class="step_n"><span style="font-weight: bold;margin-right: 5px;">2.Prep:</span> Prep all of the fillings. Cut up the octopus, slice the green onions and make sure you have everything at the ready: a little dish of oil, all your ingredients, some skewers to flip the balls, and a plate to serve on. Heat up the pan.</div></li>
+                <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                    <div class="step_n"><span style="font-weight: bold;margin-right: 5px;">3.Pour and fill:</span>Generously oil the pan with a brush or a paper towel dipped in oil. Give the batter a whisk then pour into the individual compartments all the way up to the top. It’s okay if they overflow a bit. Add in the fillings and let cook until the edges start to look more solid and opaque.</div></li>
+                <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                    <div class="step_n"><span style="font-weight: bold;margin-right: 5px;">4.Flip:</span> Use your skewers to turn the takoyaki 90 degrees. If they don’t easily move, they need more time to crisp up. Once they’re at a 90° angle, pour in a bit more batter to ensure a super round ball. Let cook, stuffing in any excess batter that’s outside the ball, then turn again. You should have a round ball. Cook until the balls are crispy and brown, moving the balls around from mold to mold to evenly cook (this is because most pans will have uneven heating). As the balls crisp up, it will be easier to flip them.</div></li>
+                <li class="list-group-item list_bottom step" style="border-style: none;border-top: 1px dashed rgb(170, 170, 170);">
+                    <div class="step_n"><span style="font-weight: bold;margin-right: 5px;">5.Sauce:</span> When the balls are golden and crisp, pop them on a plate and brush with takoyaki sauce and squeeze on some mayo.
+                        Top. Finish with a sprinkle of bonito and aonori. Enjoy!</div></li>
+               
+              </ul>
+        </div>
+    </div>
+    <!-- end 作り方 -->
 
-        <!-- begin video -->
-        <div class="nguyenlieu container"  style="padding-left: 164px; padding-right: 164px;">
-            <div class="row congthuc">
-                <h4 class="tilte_nguyenlieu">ガイドビデオ:</h4>    
-                <div class="video">
-                    <iframe class="videocongthuc" src="https://www.youtube.com/embed/b6aRDlV_TUg">
-                    </iframe>
-                </div>
+    <!-- begin video -->
+    <div class="nguyenlieu container"  style="padding-left: 164px; padding-right: 164px;">
+        <div class="row congthuc">
+            <h4 class="tilte_nguyenlieu">Guide video:</h4>    
+            <div class="video">
+                <iframe class="videocongthuc" src="https://www.youtube.com/embed/b6aRDlV_TUg">
+                </iframe>
             </div>
         </div>
-        <!-- end video -->
+    </div>
+    <!-- end video -->
 
-        <!-- begin cmt -->
-        <div class="container mt-5 mb-5">
-            <div class="d-flex justify-content-center row">
-                <div class="d-flex flex-column col-md-8">
-                    
-                    <div class="coment-bottom bg-white p-2 px-4">
-                        <div class="d-flex flex-row add-comment-section mt-4 mb-4"><input type="text" class="form-control mr-3" placeholder="Add comment"><button class="btn btn-primary" type="button">Comment</button></div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <h5 class="mr-2">Corey oates</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">4 hours ago</span>
-                            </div>
-                            <div class="comment-text-sm"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
-                            <div class="reply-section">
-                                <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2 ms-2">10</span><span class="dot ml-2"></span>
-                                    <h6 class="ml-2 mt-1">Reply</h6>
-                                </div>
+    <!-- begin cmt -->
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center row">
+            <div class="d-flex flex-column col-md-8">
+                
+                <div class="coment-bottom bg-white p-2 px-4">
+                    <div class="d-flex flex-row add-comment-section mt-4 mb-4"><input type="text" class="form-control mr-3" placeholder="Add comment"><button class="btn btn-primary" type="button">Comment</button></div>
+                    <div class="commented-section mt-2">
+                        <div class="d-flex flex-row align-items-center commented-user">
+                            <h5 class="mr-2">Corey oates</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">4 hours ago</span>
+                        </div>
+                        <div class="comment-text-sm"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+                        <div class="reply-section">
+                            <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2 ms-2">10</span><span class="dot ml-2"></span>
+                                <h6 class="ml-2 mt-1">Reply</h6>
                             </div>
                         </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <h5 class="mr-2">Samoya Johns</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">5 hours ago</span>
-                            </div>
-                            <div class="comment-text-sm"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</span></div>
-                            <div class="reply-section">
-                                <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2 ms-2">15</span><span class="dot ml-2"></span>
-                                    <h6 class="ml-2 mt-1">Reply</h6>
-                                </div>
+                    </div>
+                    <div class="commented-section mt-2">
+                        <div class="d-flex flex-row align-items-center commented-user">
+                            <h5 class="mr-2">Samoya Johns</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">5 hours ago</span>
+                        </div>
+                        <div class="comment-text-sm"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</span></div>
+                        <div class="reply-section">
+                            <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2 ms-2">15</span><span class="dot ml-2"></span>
+                                <h6 class="ml-2 mt-1">Reply</h6>
                             </div>
                         </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <h5 class="mr-2">Makhaya andrew</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">10 hours ago</span>
-                            </div>
-                            <div class="comment-text-sm"><span>Nunc sed id semper risus in hendrerit gravida rutrum. Non odio euismod lacinia at quis risus sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Enim facilisis gravida neque convallis a. In mollis nunc sed id. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Ultrices mi tempus imperdiet nulla malesuada pellentesque.</span></div>
-                            <div class="reply-section">
-                                <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2 ms-2">25</span><span class="dot ml-2"></span>
-                                    <h6 class="ml-2 mt-1">Reply</h6>
-                                </div>
+                    </div>
+                    <div class="commented-section mt-2">
+                        <div class="d-flex flex-row align-items-center commented-user">
+                            <h5 class="mr-2">Makhaya andrew</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">10 hours ago</span>
+                        </div>
+                        <div class="comment-text-sm"><span>Nunc sed id semper risus in hendrerit gravida rutrum. Non odio euismod lacinia at quis risus sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Enim facilisis gravida neque convallis a. In mollis nunc sed id. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Ultrices mi tempus imperdiet nulla malesuada pellentesque.</span></div>
+                        <div class="reply-section">
+                            <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2 ms-2">25</span><span class="dot ml-2"></span>
+                                <h6 class="ml-2 mt-1">Reply</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end cmt -->
-    <!-- begn footer -->
-    <div class="footer">
-           
-        <a href="#"> <img src="./img/cookie_logo_2.png" alt="logo" class="logo_coki"></a>
-        <div class="share">
-            <i class="share_logo fab fa-facebook"></i>
-            <i class="share_logo fab fa-instagram-square"></i>
-            <i class="share_logo fab fa-google-plus-g"></i>
-            <i class="share_logo fab fa-youtube"></i>
-            <i class="share_logo fab fa-tiktok"></i>
-        </div>
-        <div class="footer-text">Copyright © 2015 All Rights Reserved.</div>
     </div>
-    <!-- end footer -->
-    
-</div>
+    <!-- end cmt -->
+        
+        
+    </div>
 
-<script src="script.js"></script>
-<script src="./js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
-</html>    
+</html>

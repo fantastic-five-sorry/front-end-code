@@ -18,12 +18,22 @@ html{
     background-color: #bdecd5;
    
 }
+.nav-login{
+    line-height: 64px;
+       
+    margin-left: 180px;
+}
+.nav-login a{
+    text-decoration: none;
+    color: #000;
+
+}
 .nav-logo{
     margin: 0 106px;
 }
 .cooki_logo{
     height: 50px;
-    width: 200px;
+    width: 280px;
    
 }
 .d_formsearch{
@@ -62,14 +72,14 @@ html{
 }
 .ninki_ribi{
     margin-top: 8rem;
-    
+   
 }
 .niki{
     display: flex;
     flex-direction: row;
 }
 .nikititle{
-   
+    color: rgb(52, 207, 235);
 }   
 .viewall{
     margin-left: 1rem;
@@ -123,6 +133,9 @@ html{
 .logo_coki{
     margin-top: 60px;
     margin-bottom: 60px;
+    color: #fff;
+    background-color: #fff;
+    border: 2px solid #000;
 }
 .logo_coki:hover{
     cursor: pointer;
@@ -155,6 +168,9 @@ html{
     color: #999;
     padding: 10px 0;
 }
+.img-header{
+  
+}
 .arow{
    
     display: flex;
@@ -163,12 +179,54 @@ html{
 }
 .arow-up{
     color: #0dcaf0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 40px;
+    margin-left: 30px;
 }
 .arow-up:hover{
     cursor: pointer;
     opacity: 0.6;
+}
+.btn-report{
+    width: 100px;
+}
+.icon-report{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 20px;
+    flex-direction: column;
+
+}
+.img_detail{
+    margin-left: 150px;
+    margin-top: -300px;
+   
+}
+.img_details{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
+}
+.name_details{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -200px;
+}
+.user_img{
+    
+   margin-top: -20px;
+   margin-left: 40px;
+}
+.name-user{
+    margin-left: 30px;
+}
+.user{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.img_detail:hover{
+    cursor: pointer;
 }
 .tenmon{
     font-size: 34px;
@@ -379,6 +437,8 @@ html{
     border-radius: 10px;
     border: 1px solid #ccc;
     margin-top: 20px;
+    width: 100%;
+    height: 60px;
 }
 .btn{
     float: right;
