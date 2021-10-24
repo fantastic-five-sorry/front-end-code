@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookWithMe</title>
+    <link rel="stylesheet" href="user_edit.css">
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+    <div class="header"></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li style="text-align: center;">
+          <img src="./image/ava.png", id="avatar">
+          <a href="profile.html">Profile</a>
+      </li>
+      <li><a href="homepage.html" target="_blank">MENU</a></li>
+      <li><a href="stat.html" target="_blank">Stat</a></li>
+      <li><a href="#" target="_blank">Recipe</a></li>
+      <li><a href="user_management.html" target="_blank">User </a></li>
+    </ul>
+  </div>
+  <div id='center' class="main center">
+    <div>
+        <div class="container">
+            <div class="tab">
+                <a class="tablinks active">My Recipe</a>
+                <a class="tablinks">Recipe Collection</a>
+                <a class="tablinks">Personal Information</a>
+            </div>
+              
+            <div id="My Recipe" class="tabcontent">
+                <h3>My Recipe</h3>
+                <iframe src="recipe_table.html" width="500" height="400"></iframe>
+            </div>
+              
+            <div id="Recipe Collection" class="tabcontent">
+                <h3>Recipe Collection</h3>
+                <iframe src="collection_table.html" width="500" height="400"></iframe>
+            </div>
+              
+            <div id="Personal Information" class="tabcontent">
+                <h3>Personal Information</h3>
+                <iframe src="user_form.html" width="300" height="800"></iframe>           
+            </div>
+        </div>
+       
+    <script type="text/javascript">
+        var buttons = document.getElementsByClassName('tablinks');
+        var contents = document.getElementsByClassName('tabcontent');
+        function showContent(id){
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].style.display = 'none';
+            }
+            var content = document.getElementById(id);
+            content.style.display = 'block';
+        }
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function(){
+                var id = this.textContent;
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].classList.remove("active");
+                }
+                this.className += " active";
+                showContent(id);
+            });
+        }
+        showContent('My Recipe');
+    </script>
+    </div>
+
+  </div>
+</body>
