@@ -1,0 +1,224 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./AdminPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="overlay"></div>
+
+      <!-- Sidebar -->
+      <nav
+        class="navbar navbar-inverse navbar-fixed-top"
+        id="sidebar-wrapper"
+        role="navigation"
+      >
+        <ul class="nav sidebar-nav">
+          <li class="sidebar-brand">
+            <img
+              class="avatar"
+              src="https://www.w3schools.com/howto/img_avatar.png"
+              alt="avatar"
+            />
+          </li>
+          <li class="sidebar-brand">
+            <a href="#"> Admin name </a>
+          </li>
+          <li>
+            <a href="#">Statistics</a>
+          </li>
+          <li>
+            <a href="#">Recipe</a>
+          </li>
+          <li>
+            <a href="#">User</a>
+          </li>
+          <li>
+            <a href="#">Question</a>
+          </li>
+          <!-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+              >Works <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="dropdown-header">Dropdown heading</li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li> -->
+          <li>
+            <a href="#">Report</a>
+          </li>
+          <li>
+            <a href="#">Home Page</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <button
+          type="button"
+          class="hamburger is-closed"
+          data-toggle="offcanvas"
+        >
+          <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+          <span class="hamb-bottom"></span>
+        </button>
+        <!-- begincontent -->
+        <div class="container">
+          <ul class="nav nav-tabs ms-5 mt-5 navigation">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Number ofuser </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Number of recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Number of reports</a>
+            </li>
+          </ul>
+          <div class="row">
+            <!-- table user -->
+            <div class="col-md-10 mt-5 " >
+             
+              <table class="table-recipe table table-bordered" >
+                <tbody>
+                    <tr style="background-color: #79aefe; color: #fff;"> 
+                        <th>#</th>
+                        <th>Author Name</th>
+                        <th>Role</th>
+                        <th>Permission</th>
+                    </tr>
+                  <tr>
+                    <th scope="row" style="padding-top: 18px;">1</th>
+                    <td style="padding-top: 18px;">Han</td>
+                    <td style="padding-top: 18px;">Administratore</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="padding-top: 18px;">2</th>
+                    <td style="padding-top: 18px;">Han</td>
+                    <td style="padding-top: 18px;">Administratore</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="padding-top: 18px;">3</th>
+                    <td style="padding-top: 18px;">Han</td>
+                    <td style="padding-top: 18px;">Administratore</td>
+                   <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="padding-top: 18px;">4</th>
+                    <td style="padding-top: 18px;">Han</td>
+                    <td style="padding-top: 18px;">Administratore</td>
+                    <td> <i class=" arow-permission fas fa-sort-down" style=" line-height: 27px;"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="padding-top: 18px;">5</th>
+                    <td style="padding-top: 18px;">Han</td>
+                    <td style="padding-top: 18px;">Administratore</td>
+                    <td> <i class=" arow-permission fas fa-sort-down" style=" line-height: 27px;"></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="padding-top: 18px;">6</th>
+                    <td style="padding-top: 18px;">Han</td>
+                    <td style="padding-top: 18px;">Administratore</td>
+                    <td> <i class=" arow-permission fas fa-sort-down" style=" line-height: 27px;"></i></td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+            </div>
+           <!-- add chef -->
+           <div class="col-md-2 add-chef">
+            <a href="#"><i class="fas fa-plus icon-add-chef"></i></a>
+            <p class="title-add-chef">Add chef</p>
+           </div>
+          </div>
+         
+        </div>
+        <!-- endcontent -->
+
+        <!-- paging -->
+        <div class="pag paging-user">
+            <ul class="pagination">
+              <li class="disabled"><a href="#">«</a></li>
+              <li class="active">
+                <a href="#"
+                  >1 <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+          </div>
+      </div>
+      <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+  </body>
+</html>
