@@ -404,3 +404,61 @@ table td{
     color: #167daa;
     font-size: 18px;
 }
+.arow:hover{
+    cursor: pointer;
+}
+.arow-permission{
+    color: #167daa;
+    font-size: 40px;
+   
+}
+.add-chef{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.icon-add-chef{
+    font-size: 90px;
+       
+    color: green;
+}
+.title-add-chef{
+    font-size: 22px;
+        color: green;
+    font-weight: 600;
+}
+.paging-user{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.question-recipe{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #bcd2f1;
+    border: 1px solid #bcd2f1;
+}
+.arow-question-recipe{
+    margin-right: 10px;
+    position: relative;
+}
+.line{
+    position: absolute;
+    background-color: #000;
+    width: 1px;
+    height: 16px;
+    margin-top: -20px;
+    margin-right: 0px;
+    margin-left: 145px;
+}
+.user-recipe{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #bcd2f1;
+    border: 1px solid #bcd2f1;
+}
